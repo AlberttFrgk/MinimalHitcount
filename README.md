@@ -11,7 +11,7 @@
 
 Displays **PP · UR · Ratio · Hit Counts · Early/Late** for every osu! game mode in a clean, minimal overlay.  
 Works as an in-game overlay or OBS browser source.  
-Inspired by **[2ky](https://github.com/2ky1e)**'s mania hit count overlay.
+Inspired by **[2ky](https://github.com/2222zz/osu-custom-overlay)**'s mania hit count overlay.
 
 <br>
 
