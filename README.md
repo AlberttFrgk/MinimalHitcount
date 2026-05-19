@@ -7,7 +7,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)
 ![Compatible](https://img.shields.io/badge/compatible-tosu-orange?style=flat-square)
 ![Resolution](https://img.shields.io/badge/resolution-240×430-green?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-lightgrey?style=flat-square)
+![License](https://img.shields.io/badge/license-GPL--3.0-lightgrey?style=flat-square)
 
 Displays **PP · UR · Ratio · Hit Counts · Early/Late** for every osu! game mode in a clean, minimal overlay.  
 Works as an in-game overlay or OBS browser source.  
