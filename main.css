@@ -1,0 +1,61 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#hitcount_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 500ms ease-in-out;
+    opacity: 0;
+}
+
+#countBox {
+    display: grid;
+    grid-template-columns: 100px 135px;
+    line-height: 33px;
+    padding: 4px;
+}
+
+#countBox > div {
+    display: contents;
+}
+
+#countBox > div.hidden {
+    display: none !important;
+}
+
+.spacer {
+    display: block !important;
+    grid-column: 1 / -1;
+    height: 16px;
+}
+
+.spacer.hidden {
+    display: none !important;
+}
+
+.row-label, .row-val {
+    font-size: 20pt;
+    white-space: nowrap;
+    color: white;
+    text-shadow: 1.5px 1.5px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.row-label {
+    grid-column: 1;
+    text-align: left;
+}
+
+.row-val {
+    grid-column: 2;
+    justify-self: end;
+    font-variant-numeric: tabular-nums;
+}
+
+.hidden {
+    display: none !important;
+}

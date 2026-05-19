@@ -1,0 +1,50 @@
+[
+    {
+        "uniqueID": "hidePP",
+        "type": "checkbox",
+        "title": "Hide PP",
+        "description": "Hides the PP display.",
+        "options": [],
+        "value": false
+    },
+    {
+        "uniqueID": "hideUR",
+        "type": "checkbox",
+        "title": "Hide UR",
+        "description": "Hides the Unstable Rate display.",
+        "options": [],
+        "value": false
+    },
+    {
+        "uniqueID": "hideRatio",
+        "type": "checkbox",
+        "title": "Hide Ratio",
+        "description": "Hides the hit ratio display.",
+        "options": [],
+        "value": false
+    },
+    {
+        "uniqueID": "hideHitCounts",
+        "type": "checkbox",
+        "title": "Hide Hit Counts",
+        "description": "Hides 300g, 300, 200, 100, 50, and Miss counts.",
+        "options": [],
+        "value": false
+    },
+    {
+        "uniqueID": "hideEarlyLate",
+        "type": "checkbox",
+        "title": "Hide Early/Late",
+        "description": "Hides the early and late hit counts.",
+        "options": [],
+        "value": false
+    },
+    {
+        "uniqueID": "showMaxCombo",
+        "type": "checkbox",
+        "title": "Show Max Combo",
+        "description": "Displays the max combo.",
+        "options": [],
+        "value": false
+    }
+]

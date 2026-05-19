@@ -1,0 +1,7 @@
+Usecase: Ingame Overlay, OBS Overlay
+Name: Minimal Hit Count
+Version: 1.0.0
+Author: Albert
+CompatibleWith: Tosu
+Resolution: 240x430
+authorLinks: https://github.com/AlberttFrgk/
