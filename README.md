@@ -85,15 +85,6 @@ tosu streams live game data over WebSocket. The overlay subscribes to two endpoi
 
 Each new hit error is classified by its absolute millisecond value against the timing windows for the current mode and OD. Negative values are **Early**, positive values are **Late**. These tallies are then distributed proportionally across displayed hit rows using a delta-tracking system, so the on-screen Early/Late counts always sum correctly even when the hit error data arrives faster than display updates.
 
-### Timing Windows
-
-| Mode | Perfect | Formula |
-|---|---|---|
-| osu! standard | `80 − 6 × OD` ms | Good: `140 − 8 × OD` · Meh: `200 − 10 × OD` |
-| Taiko | `50 − 3 × OD` ms | Ok: varies by OD ≥ 5 |
-| Mania | `16 ms` (fixed) | Perfect: `64 − 3 × OD` · Great: `97 − 3 × OD` · … |
-| Catch | — | Early/Late not shown |
-
 > EZ halves OD · HR multiplies OD by 1.4 (capped at 10) before formulas are applied.
 
 ### Ratio Formula
