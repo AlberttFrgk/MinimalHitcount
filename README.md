@@ -116,10 +116,6 @@ minimal-hit-count/
  main.js           # WebSocket logic, UR, Early/Late, hit counts
  settings.json     # Plugin settings (read by tosu)
  metadata.txt      # Plugin metadata
- osu.png           # Preview — osu! standard
- taiko.png         # Preview — Taiko
- catch.png         # Preview — Catch the Beat
- mania.png         # Preview — Mania
 ```
 
 ---
