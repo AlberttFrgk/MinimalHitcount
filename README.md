@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hit Count
+# Minimal Hit Count
 
 **A real-time hit count overlay for osu! powered by [tosu](https://github.com/KotRikD/tosu)**
 
